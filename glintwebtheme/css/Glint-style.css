@@ -1,0 +1,555 @@
+ 
+ *{
+	 margin:0;
+	 padding:0;
+	 border:0;
+	 box-sizing:border-box;
+	}
+	.camand-page{
+		width:1200px;
+		margin:0 auto;
+		display:block;
+	}
+	.header-sec{
+		position:relative;
+	}
+	
+	.header-fix{
+		position:fixed;
+		z-index: 1;
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.header{
+		position:absolute;
+		left: 0;
+		right: 0;
+		top: 60px;
+		z-index: 999;
+	}
+	
+	.header img{
+		width:8%;
+	}
+	
+	.menu{
+		float: right;
+		padding: 10px;
+		color: white;
+		position:relative;
+	}
+	
+	.menu a{
+		font-size: 20px;
+		color: green;
+		display:inline-block;
+	}
+	
+	.menu:hover .sub-menu{
+		display:block;
+	}
+	
+	.menu i{
+		display:inline-block;
+		margin: 15px;
+
+	}
+	
+	.sub-menu {
+		display:none;
+		background-color:rgba(0,0,0,0.6);
+		margin-top: -8px;
+		position:absolute;	
+		left: -25px;
+	}
+	
+	.sub-menu li:hover{
+		color:green;
+	}
+	
+	.sub-menu li{
+		line-height: 40px;
+		list-style: none;
+		font-size: 20px;
+		margin: 10px;
+		padding: 10px 25px 10px 25px;
+		color:#b8b7b7;
+	}
+	
+	.header2{
+		background-image:url(../img/money-plant-1.jpg);
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size: cover;
+		position:relative;
+		width: 100%;
+		height: 100%;
+		min-height: 786px;
+		background-color: transparent;
+		background-attachment:fixed;
+	}
+	
+	.header2-bg{
+		background-color:rgba(0,0,0,0.8);
+		top:0;
+		left:0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.header-inf{
+		position: absolute;
+		top: 250px;
+		left: 100px;
+		line-height: 57px;
+		
+	}
+	
+	.header-inf h3{
+		color: #979393;
+		font-size: 25px;
+	}
+	
+	.header-inf h1{
+		width: 650px;
+		font-size: 60px;
+		text-align: justify;
+		color:white;
+		padding-bottom:60px;
+	}
+	
+	.dis-inline{
+		display:inline-block;
+	}
+	.button2{
+		margin-left:60px;
+	}
+	
+	.button2 a:hover{
+		background-color:white;
+		color:green;
+		border:2px solid green;
+	}
+	
+	.button2 a{
+		text-decoration: none;
+		color: white;
+		text-transform: uppercase;
+		border: 2px solid;
+		padding: 12px;
+		font-size: 17px;
+		font-family: monospace;
+	}
+	
+	.follw-us-font{
+		display: inline-block;
+		margin-left: 389px;
+		top: -100px;
+		position: relative;
+	}
+	
+	.follw-us-font a {
+		display: block;
+		padding: 10px;
+		margin-top: 32px;
+		color: #a99b9b;
+		text-decoration:none;
+		font-size: 25px;
+
+	}
+	
+	.follw-us-font a:hover{
+		color:green;
+	}
+	
+	.what-we-do{
+		text-align: center;
+		margin-top: 100px;
+	}
+	
+	.what-we-do h4{
+		color:green;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+	
+	.what-we-do h1{
+		font-size:65px;
+		margin-bottom:80px;
+		
+	}
+	
+	.brand-top{
+		display:inline;
+		margin-left:85px;
+	}
+	
+	.fonts-brand{
+		display:inline-block;
+		vertical-align:top;
+		margin-right:20px;
+		
+	}
+		
+	.fonts-brand i{
+		font-weight: 100;
+		font-size: 80px;
+		display: inline-block;
+		height: 100px;
+		color: green;
+	}
+	
+	.Brand{
+		width: 31%;
+		text-align: justify;
+		font-size: 20px;
+		line-height: 28px;
+		display: inline-block;
+		margin-bottom: 60px;
+	}
+	
+	.Brand h3{
+		font-size:35px;
+		margin-bottom: 10px;
+
+	}
+	
+	.work-bg{
+		background:#111111;
+		padding: 100px 0 150px 0;
+	}
+	
+	.recent-work{
+		color:white;
+		text-align:center;
+	}
+	
+	.recent-work h3{
+		color:green;
+		margin-bottom: 20px;
+
+	}
+	
+	.recent-work h1{
+		font-size:65px;
+		margin-bottom:80px;
+
+	}
+	
+	.recent-work-sec{
+		position:relative;
+		margin-bottom:150px;
+	}
+	
+	.camand1{
+		margin: 0 auto;
+		text-align: center;
+		display:table;
+
+	}
+	
+	.recent-work2{
+		position:relative;
+	}
+	
+	.recent-work2:hover .work-img-overlay{
+		opacity:1;
+	}
+	
+	.img-position{
+		margin-top: -110px;
+	}
+	
+	.img-group1{
+		display:inline-block;
+	}
+	
+	.recent-work-img1{
+		width: 545px;
+		height: 700px;
+		display: block;
+	}
+	
+	.work-img-overlay{
+		display:block;
+		background-color: rgba(0,0,0,0.3);
+		position:absolute;
+		top:0;
+		left: 0;
+		opacity:0;
+		transition: .5s ease;
+		height:100%;
+		width:100%;
+	}
+	
+	.work-img-overlay h3{
+		font-size: 20px;
+		text-align: center;
+		color: white;
+		position:relative;
+		top:50%;
+		margin-top:-14px;
+
+	}
+	
+	.recent-work-img2{
+		width: 545px;
+		height: 550px;
+		display: block;
+	}
+
+	
+	.img-group2{
+		display:inline-block;
+		vertical-align:top
+	}
+	
+	.recent-work-img{
+		width: 550px;
+		height: 650px;
+		display: block;
+	}
+	
+	.clients-sec{
+		background:#e6e6e6;
+		padding: 50px 0 100px;
+
+		
+	}
+	
+	.clients-logo-img:hover{
+		background-color: #52b631ba;
+	}
+	
+	.clients-logo-img{
+		width:12%;
+		margin: 25px;
+
+	}
+	
+	.small-blog{
+		text-align: -webkit-center;
+		margin: 30px;
+		position:relative;
+	}
+	
+	.small-blog p{
+		width: 700px;
+		text-align: center;
+		font-size: 30px;
+		margin-bottom: 48px;
+		margin-top: 50px;
+		color: #7b7878;
+	}
+	
+	.arrow-left{
+		padding: 5px 15px 5px 15px;
+		position: absolute;
+		left: 50px;
+		top: 65px;
+		font-size: 16px;
+		border: 1px solid darkseagreen;
+	}
+	.arrow-right{
+		padding: 5px 15px 5px 15px;
+		position: absolute;
+		top: 65px;
+		right: 50px;
+		font-size: 16px;
+		border: 1px solid darkseagreen;
+	}
+	
+	.user-img {
+		border-radius: 300px;
+		width: 10%;
+	}
+	
+	.small-blog h4{
+		padding:10px;
+		color:gray;
+	}
+	
+	.contact-sec{
+		background-image:url(../img/contact-bg.jpg);
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment:fixed;
+		padding:100px 0 140px;
+		
+	}
+	
+	.contact{
+		margin: 0 auto;
+		text-align: center;
+		display:table;
+	}
+	
+	.form{
+		width: 45%;
+		background-color: rgba(0,0,0,0.5);
+		color:white;
+		transform: translate(0);
+		display:inline-block;
+
+	}
+	
+	.form h3{
+		padding: 40px 0 20px;
+		text-align:center;
+
+	}
+	
+	.form input{
+		display: block;
+		margin: 20px;
+		padding: 15px 300px 15px 20px;
+		color: white;
+		font-size: 16px;
+		border-bottom: 1px solid #4d4a4a;
+		background-color: transparent;
+
+	}
+	
+	.form textarea{
+		font-size: 16px;
+		padding: 10px;
+		margin: 20px 25px 30px 15px;
+		color:white;
+		border-bottom: 1px solid #4d4a4a;
+		background-color: transparent;
+	}
+	
+	.form button{
+		padding: 10px 200px 10px 200px;
+		background-color: #56d117;
+		margin: 23px;
+	}
+	
+	.contact-us{
+		width: 25%;
+		background-color: black;
+		color: #aeadad;
+		text-align: center;
+		font-size: 20px;
+		padding: 20px;
+		display: inline-block;
+		vertical-align: top;
+
+	}
+	
+	.contact-us h3{
+		color: green;
+		margin-top: 40px;
+	}
+	
+	.contact-us h4{
+		line-height: 30px;
+	}
+	
+	.share-font{
+		margin: 25px;
+	}
+	
+	.share-font i:hover{
+		color:green;
+	}
+	.share-font i{
+		padding: 15px;
+
+	}
+	
+	.footer-sec{
+		background-color:#181818;
+		padding: 50px;
+
+	}
+	
+	.footer{
+		margin:0 auto;
+		text-align:center;
+	}
+	
+	.footer1{
+		color:#828181;
+		display:inline;
+	}
+	
+	.footer-logo{
+		width: 9%;
+		display:block;
+		margin-left: 165px;
+
+	}
+	
+	.footer1 p{
+		font-size: 18px;
+		width: 35%;
+		text-align: justify;
+		line-height: 25px;
+		display: inline-block;
+		margin: 60px;
+
+	}
+	
+	.footer2{
+		color:#828181;
+		display:inline-block;
+		width:35%;
+		margin-left: 35px;
+
+	}
+	
+	.footer2 p{
+		font-size: 18px;
+		line-height: 25px;
+		text-align:justify;
+		
+	}
+	
+	.footer2 h3{
+		font-size: 20px;
+		color: white;
+		margin-bottom: 71px;
+		margin-right: 300px;
+	}
+	
+	.footer2 button{
+		padding: 13px;
+		background-color: #d40f0f;
+		color: white;
+		font-size: 20px;
+		margin-left: 50px;
+		font-weight: bolder;
+		margin-top: 35px;
+	}
+	
+	.footer-end{
+		color:#828181;
+	}
+	
+	.footer-end span:hover{
+		color:red;
+	}
+	
+	.footer-end span{
+		color:white;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
